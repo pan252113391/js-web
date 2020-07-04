@@ -1,0 +1,36 @@
+// login登录页面
+.login_wrapper{
+    
+    .regist_button{
+        width: 100%;
+    }
+   
+    .email_label{
+        font-size: 16px !important;
+        height: 28px;
+        width: 100%;
+        text-align: justify;
+        float: left;
+    }
+    .email_label:after{
+        content:'';
+        width: 100%;
+        display: inline-block;
+        overflow: hidden;
+        height: 0;
+    }
+    .title{
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .switch_wrpper{
+        margin-bottom: 40px;
+    }
+
+}
+.slide{
+    .el-menu-border{
+        border: 0;
+    }
+}
